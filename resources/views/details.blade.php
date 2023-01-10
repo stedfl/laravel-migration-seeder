@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('title')
+    Train-Details
+@endsection
+
 @section('content')
 <main>
     <div class="container my-5 d-flex align-items-center justify-content-center">
