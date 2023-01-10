@@ -1,1 +1,18 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    img {
+        height: 50px;
+    }
+    a {
+        color: #ff4000;
+    }
+}
