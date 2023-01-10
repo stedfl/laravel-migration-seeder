@@ -1,4 +1,4 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 ul {
     list-style: none;
@@ -15,4 +15,27 @@ header {
     a {
         color: #ff4000;
     }
+}
+
+.card {
+    h4 {
+        color: #008dcf;
+    }
+
+    h6 {
+        display: inline-block;
+        color: white;
+        background-color: #008dcf;
+    }
+    .icon-train.ontime {
+        color: green;
+    }
+
+    .icon-train.delayed {
+        color: red;
+    }
+}
+
+.stop-train {
+    height: 50vh;
 }

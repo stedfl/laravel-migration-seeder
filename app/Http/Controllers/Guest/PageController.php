@@ -20,4 +20,12 @@ class PageController extends Controller
     public function about() {
         return view('about');
     }
+
+    public function details($id) {
+        $train = Train::find($id);
+        if(is_null($train)) {
+            abort(404, 'Train not found!');
+        }
+        return view('details', compact('train'));
+    }
 }
